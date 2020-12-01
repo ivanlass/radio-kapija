@@ -4,9 +4,6 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { isBrowser } from "react-device-detect";
-import ad from '../photos/ad.jpg'
-import adHorizontal from '../photos/ad-horizontal.jpg'
-import adHorizontalMob from '../photos/adHorizontalMob.png'
 import Hero from "../components/Hero";
 import Ad from "../components/Ad";
 
@@ -19,7 +16,7 @@ function About() {
                     {isBrowser ?
                         <>
                             <Col>
-                                <Ad ad={adHorizontal} />
+                                <Ad placement="top" />
                             </Col>
                         </>
 
@@ -27,7 +24,7 @@ function About() {
 
                         <>
                             <Col >
-                                <Ad ad={adHorizontalMob} />
+                                <Ad placement="mobile" />
                             </Col>
                         </>
                     }
@@ -50,7 +47,7 @@ function About() {
 
                     </Col>
                     <Col xl={3} className="side-ad-col">
-                        <Ad ad={ad} />
+                        <Ad placement="side" />
                     </Col>
                 </Row>
 

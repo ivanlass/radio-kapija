@@ -4,9 +4,7 @@ import Hero from '../components/Hero'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import ad from '../photos/ad.jpg'
-import adHorizontal from '../photos/ad-horizontal.jpg'
-import adHorizontalMob from '../photos/adHorizontalMob.png'
+
 import Ad from "../components/Ad";
 import { isBrowser } from "react-device-detect";
 
@@ -21,7 +19,7 @@ function VideoArhiv({ videos }) {
                     {isBrowser ?
                         <>
                             <Col>
-                                <Ad ad={adHorizontal} />
+                                <Ad placement="top" />
                             </Col>
                         </>
 
@@ -29,7 +27,7 @@ function VideoArhiv({ videos }) {
 
                         <>
                             <Col >
-                                <Ad ad={adHorizontalMob} />
+                                <Ad placement="mobile" />
                             </Col>
                         </>
                     }
@@ -54,7 +52,7 @@ function VideoArhiv({ videos }) {
                         </div >
                     </Col>
                     <Col xl={3} className="side-ad-col">
-                        <Ad ad={ad} />
+                        <Ad placement="side" />
                     </Col>
                 </Row>
             </Container>

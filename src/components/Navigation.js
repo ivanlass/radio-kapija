@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import {
     BrowserRouter as Router,
     Switch,
@@ -14,9 +14,13 @@ import Nav from 'react-bootstrap/Nav'
 import logo from '../photos/logo.png'
 import VideoArhiv from '../Pages/VideoArhiv'
 import { Container } from "react-bootstrap";
+import { BannersContext } from "../Context/BannersContext";
 
 export default function Navigation() {
     const [videos, setVideos] = useState('')
+    const [banners, setBanners] = useContext(BannersContext)
+
+
     useEffect(() => {
         fetch('https://radio-kapija.herokuapp.com/api')
             .then(response => response.json())
@@ -25,6 +29,10 @@ export default function Navigation() {
                 videoData.shift()
                 setVideos(videoData)
             });
+
+        fetch('https://radio-kapija.herokuapp.com/banners')
+            .then(response => response.json())
+            .then(data => { setBanners(data) });
 
     }, [])
 

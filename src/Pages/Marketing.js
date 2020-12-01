@@ -5,9 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { isBrowser } from "react-device-detect";
 import Hero from '../components/Hero'
-import ad from '../photos/ad.jpg'
-import adHorizontal from '../photos/ad-horizontal.jpg'
-import adHorizontalMob from '../photos/adHorizontalMob.png'
+
 import Ad from "../components/Ad";
 
 function Marketing() {
@@ -19,7 +17,7 @@ function Marketing() {
                     {isBrowser ?
                         <>
                             <Col>
-                                <Ad ad={adHorizontal} />
+                                <Ad placement="top" />
                             </Col>
                         </>
 
@@ -27,7 +25,7 @@ function Marketing() {
 
                         <>
                             <Col >
-                                <Ad ad={adHorizontalMob} />
+                                <Ad placement="mobile" />
                             </Col>
                         </>
                     }
@@ -239,7 +237,7 @@ function Marketing() {
 
                     </Col>
                     <Col xl={3} className="side-ad-col">
-                        <Ad ad={ad} />
+                        <Ad placement="side" />
                         <div className="contact-wrapper">
                             <p className="contact">
                                 Radio Kapija Los Angeles

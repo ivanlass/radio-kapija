@@ -19,7 +19,10 @@ function Radio() {
     setInterval(function () {
         fetch('https://radio-kapija.herokuapp.com/')
             .then(response => response.json())
-            .then(data => setSong(data.songtitle));
+            .then(data => {
+                setSong(data.songtitle)
+                document.title = data.songtitle
+            });
 
     }, 40000);
 
