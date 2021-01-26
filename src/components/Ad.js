@@ -5,15 +5,18 @@ import top from '../photos/ad-horizontal.jpg'
 import mobile from '../photos/adHorizontalMob.jpg'
 import side from '../photos/ad.jpg'
 import { BannersContext } from "../Context/BannersContext";
+import { useHistory } from "react-router-dom";
 
 function Ad(props) {
     const [banners, setBanners] = useContext(BannersContext)
 
+    const history = useHistory();
 
+    const pushToMarketing = () => history.push("/marketing");
 
     return (
         <div >
-            {banners ? <Carousel controls={false} indicators={false} interval={8000}>
+            {banners.length > 0 ? <Carousel controls={false} indicators={false} interval={8000}>
                 {banners && banners.map(banner => {
                     if (banner.placement === props.placement) {
                         return (<Carousel.Item>
@@ -31,22 +34,25 @@ function Ad(props) {
 
             </Carousel>
 
-                :
+        :
                 (() => {
                     switch (props.placement) {
                         case "top": return <img
+                            onClick={ pushToMarketing}
                             width="100%"
                             src={top}
                             className="d-inline-block align-top img-fluid"
                             alt="Radio kapija"
                         />;
                         case "mobile": return <img
+                            onClick={pushToMarketing}
                             width="100%"
                             src={mobile}
                             className="d-inline-block align-top img-fluid"
                             alt="Radio kapija"
                         />;
                         default: return <img
+                            onClick={pushToMarketing}
                             width="100%"
                             src={side}
                             className="d-inline-block align-top img-fluid"

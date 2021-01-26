@@ -13,6 +13,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
 import logo from '../photos/logo.png'
 import VideoArhiv from '../Pages/VideoArhiv'
+import Thanks from '../Pages/Thanks'
 import { Container } from "react-bootstrap";
 import { BannersContext } from "../Context/BannersContext";
 
@@ -68,6 +69,9 @@ export default function Navigation() {
 
 
                 <Switch>
+                <Route path="/thanks">
+                        <Thanks />
+                    </Route>
                     <Route path="/about">
                         <About />
                     </Route>

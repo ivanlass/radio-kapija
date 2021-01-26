@@ -6,6 +6,8 @@ import Col from 'react-bootstrap/Col'
 import Raspored from "../components/Raspored";
 import { isBrowser } from "react-device-detect";
 import Hero from "../components/Hero";
+import WantsYou from '../components/WantsYou'
+import UspjesnePrice from '../components/UspjesnePrice'
 import Ad from "../components/Ad";
 
 
@@ -56,7 +58,8 @@ function Home() {
                 </Row>
                 <Row>
                     <Col xl={9}>
-
+                        <WantsYou />
+                        <UspjesnePrice />
                         <Raspored />
                     </Col>
                     <Col xl={3} className="side-ad-col">

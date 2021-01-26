@@ -7,8 +7,10 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 import muzicki from '../photos/Muzicki-Program.jpg'
-import udriMuski from '../photos/Udri-Muski.jpg'
 import vikend from '../photos/vikend.jpg'
+import sevdahImg from '../photos/sevdah.jpg'
+import amaricaImg from '../photos/amarica.jpg'
+import folk from '../photos/folk.jpg'
 
 function Raspored() {
     return (
@@ -33,10 +35,10 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike sa Balkana protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">00:00</p>
-                                    <p className="time">22:00</p>
+                                    <p className="time">06:00</p>
                                 </Col>
                             </Row>
                         </div>
@@ -44,30 +46,243 @@ function Raspored() {
                         <div className="schedule-item">
                             <Row>
                                 <Col>
-                                    <p className="schedule-item-title">Udri Muški</p>
+                                    <p className="schedule-item-title">Folk Blok</p>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
                                     <img
-                                        src={udriMuski}
+                                        src={folk}
                                         width="200"
                                         height="100"
                                         className="d-inline-block align-top schedule-img"
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>“Udri Muški” je emisija humorističko-edukativnog tipa u produkciji radija Otvorena Mreža.  Jedinstveni jutarnji show koji prenose 54 radio stanice i televizija TV1.
-                                Ekipa našeg radija učestvuje u emisiji sa javljanjima uživo iz našeg studija u Los Angelesu.
-                                U programu Radio Kapije od nedjelje do četvrtka sa početkom u 22:00 sata po lokalnom vremenu u Los Angelesu.
+                                <Col xl={6}>Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
-                                    <p className="time">22:00</p>
-                                    <p className="time">00:00</p>
+                                    <p className="time">06:00</p>
+                                    <p className="time">07:00</p>
+                                </Col>
+                            
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.
+                            </Col>
+                                <Col>
+                                    <p className="time">07:00</p>
+                                    <p className="time">13:00</p>
+                                </Col>
+                            
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Sevdah Time</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={sevdahImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najljepse sevdalinke
+                            </Col>
+                                <Col>
+                                    <p className="time">13:00</p>
+                                    <p className="time">13:30</p>
+                                </Col>
+                            
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.
+                            </Col>
+                                <Col>
+                                    <p className="time">13:30</p>
+                                    <p className="time">20:00</p>
+                                </Col>
+                            
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Folk Blok</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={folk}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi narodne muzike.
+                            </Col>
+                                <Col>
+                                    <p className="time">20:00</p>
+                                    <p className="time">21:00</p>
                                 </Col>
                             </Row>
                         </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.
+                            </Col>
+                                <Col>
+                                    <p className="time">21:00</p>
+                                    <p className="time">23:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Sevdah Time</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={sevdahImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najljepse sevdalinke
+                            </Col>
+                                <Col>
+                                    <p className="time">23:00</p>
+                                    <p className="time">23:30</p>
+                                </Col>
+                            
+                            </Row>
+                        </div>
+
+
+                        
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.
+                            </Col>
+                                <Col>
+                                    <p className="time">23:30</p>
+                                    <p className="time">24:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        
+
+
+
                     </Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </Tab>
                 <Tab className="tab-link" eventKey="Utorak" title="Utorak">
                     <Container>
@@ -88,46 +303,297 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike sa Balkana protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">00:00</p>
-                                    <p className="time">22:00</p>
+                                    <p className="time">06:00</p>
                                 </Col>
                             </Row>
                         </div>
 
+
+
                         <div className="schedule-item">
                             <Row>
                                 <Col>
-                                    <p className="schedule-item-title">Udri Muški</p>
+                                    <p className="schedule-item-title">Folk Blok</p>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
                                     <img
-                                        src={udriMuski}
+                                        src={folk}
                                         width="200"
                                         height="100"
                                         className="d-inline-block align-top schedule-img"
                                         alt="Radio kapija"
                                     />
                                 </Col>
-
-                                <Col xl={6}>“Udri Muški” je emisija humorističko-edukativnog tipa u produkciji radija Otvorena Mreža.  Jedinstveni jutarnji show koji prenose 54 radio stanice i televizija TV1.
-                                Ekipa našeg radija učestvuje u emisiji sa javljanjima uživo iz našeg studija u Los Angelesu.
-                                U programu Radio Kapije od nedjelje do četvrtka sa početkom u 22:00 sata po lokalnom vremenu u Los Angelesu.
+                                <Col xl={6}>Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
-                                    <p className="time">22:00</p>
-                                    <p className="time">00:00</p>
+                                    <p className="time">06:00</p>
+                                    <p className="time">07:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+                
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">07:00</p>
+                                    <p className="time">13:00</p>
                                 </Col>
                             </Row>
                         </div>
 
-                    </Container>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Sevdah Time</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={sevdahImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najljepse sevdalinke
+                            </Col>
+                                <Col>
+                                    <p className="time">13:00</p>
+                                    <p className="time">13:30</p>
+                                </Col>
+                            
+                            </Row>
+                        </div>
+
+
+
+        
+
+
+
+
+                    <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">13:30</p>
+                                    <p className="time">20:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Folk Blok</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={folk}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi narodne muzike.
+                            </Col>
+                                <Col>
+                                    <p className="time">20:00</p>
+                                    <p className="time">21:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">21:00</p>
+                                    <p className="time">23:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Sevdah Time</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={sevdahImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najljepse sevdalinke
+                            </Col>
+                                <Col>
+                                    <p className="time">23:00</p>
+                                    <p className="time">23:30</p>
+                                </Col>
+                            
+                            </Row>
+                        </div>
+
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">23:30</p>
+                                    <p className="time">24:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+                </Container>
+
+
+
+
+
+
+
+
+
+
+
                 </Tab>
                 <Tab className="tab-link" eventKey="Srijeda" title="Srijeda">
                     <Container>
+
+                    <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">00:00</p>
+                                    <p className="time">06:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Folk Blok</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={folk}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi narodne muzike.
+                            </Col>
+                                <Col>
+                                    <p className="time">06:00</p>
+                                    <p className="time">07:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
                         <div className="schedule-item">
                             <Row>
                                 <Col>
@@ -144,11 +610,10 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-
-                                <Col xl={6}>Najveći hitovi zabavne muzike sa Balkana protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
-                                    <p className="time">00:00</p>
-                                    <p className="time">22:00</p>
+                                    <p className="time">07:00</p>
+                                    <p className="time">13:00</p>
                                 </Col>
                             </Row>
                         </div>
@@ -156,34 +621,287 @@ function Raspored() {
                         <div className="schedule-item">
                             <Row>
                                 <Col>
-                                    <p className="schedule-item-title">Udri Muški</p>
+                                    <p className="schedule-item-title">Sevdah Time</p>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
                                     <img
-                                        src={udriMuski}
+                                        src={sevdahImg}
                                         width="200"
                                         height="100"
                                         className="d-inline-block align-top schedule-img"
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>“Udri Muški” je emisija humorističko-edukativnog tipa u produkciji radija Otvorena Mreža.  Jedinstveni jutarnji show koji prenose 54 radio stanice i televizija TV1.
-                                Ekipa našeg radija učestvuje u emisiji sa javljanjima uživo iz našeg studija u Los Angelesu.
-                                U programu Radio Kapije od nedjelje do četvrtka sa početkom u 22:00 sata po lokalnom vremenu u Los Angelesu.
+                                <Col xl={6}>Najljepse sevdalinke
                             </Col>
                                 <Col>
-                                    <p className="time">22:00</p>
-                                    <p className="time">00:00</p>
+                                    <p className="time">13:00</p>
+                                    <p className="time">13:30</p>
+                                </Col>
+                            
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">13:30</p>
+                                    <p className="time">16:00</p>
                                 </Col>
                             </Row>
                         </div>
+
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Balkan in Amarica</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={amaricaImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Trenutno najslušaniji hitovi sa Balkana.</Col>
+                                <Col>
+                                    <p className="time">16:00</p>
+                                    <p className="time">17:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">17:00</p>
+                                    <p className="time">20:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Folk Blok</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={folk}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi narodne muzike.
+                            </Col>
+                                <Col>
+                                    <p className="time">20:00</p>
+                                    <p className="time">21:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+
+                        
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">21:00</p>
+                                    <p className="time">23:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Sevdah Time</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={sevdahImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najljepse sevdalinke
+                            </Col>
+                                <Col>
+                                    <p className="time">23:00</p>
+                                    <p className="time">23:30</p>
+                                </Col>
+                            
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">23:30</p>
+                                    <p className="time">24:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
                     </Container>
                 </Tab>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <Tab className="tab-link" eventKey="Cetvrtak" title="Četvrtak">
                     <Container>
 
+                    <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">00:00</p>
+                                    <p className="time">06:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Folk Blok</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={folk}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi narodne muzike.
+                            </Col>
+                                <Col>
+                                    <p className="time">06:00</p>
+                                    <p className="time">07:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
                         <div className="schedule-item">
                             <Row>
                                 <Col>
@@ -200,10 +918,10 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike sa Balkana protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
-                                    <p className="time">00:00</p>
-                                    <p className="time">22:00</p>
+                                    <p className="time">07:00</p>
+                                    <p className="time">08:00</p>
                                 </Col>
                             </Row>
                         </div>
@@ -211,34 +929,380 @@ function Raspored() {
                         <div className="schedule-item">
                             <Row>
                                 <Col>
-                                    <p className="schedule-item-title">Udri Muški</p>
+                                    <p className="schedule-item-title">Balkan in Amarica</p>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
                                     <img
-                                        src={udriMuski}
+                                        src={amaricaImg}
                                         width="200"
                                         height="100"
                                         className="d-inline-block align-top schedule-img"
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>“Udri Muški” je emisija humorističko-edukativnog tipa u produkciji radija Otvorena Mreža.  Jedinstveni jutarnji show koji prenose 54 radio stanice i televizija TV1.
-                                Ekipa našeg radija učestvuje u emisiji sa javljanjima uživo iz našeg studija u Los Angelesu.
-                                U programu Radio Kapije od nedjelje do četvrtka sa početkom u 22:00 sata po lokalnom vremenu u Los Angelesu.
-                            </Col>
+                                <Col xl={6}>Trenutno najslušaniji hitovi sa Balkana.</Col>
                                 <Col>
-                                    <p className="time">22:00</p>
-                                    <p className="time">00:00</p>
+                                    <p className="time">08:00</p>
+                                    <p className="time">09:00</p>
                                 </Col>
                             </Row>
                         </div>
+
+
+                        
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">09:00</p>
+                                    <p className="time">13:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Sevdah Time</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={sevdahImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najljepse sevdalinke
+                            </Col>
+                                <Col>
+                                    <p className="time">13:00</p>
+                                    <p className="time">13:30</p>
+                                </Col>
+                            
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">13:30</p>
+                                    <p className="time">16:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Balkan in Amarica</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={amaricaImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Trenutno najslušaniji hitovi sa Balkana.</Col>
+                                <Col>
+                                    <p className="time">16:00</p>
+                                    <p className="time">17:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">17:00</p>
+                                    <p className="time">20:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Folk Blok</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={folk}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi narodne muzike.
+                            </Col>
+                                <Col>
+                                    <p className="time">20:00</p>
+                                    <p className="time">21:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">21:00</p>
+                                    <p className="time">23:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Sevdah Time</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={sevdahImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najljepse sevdalinke
+                            </Col>
+                                <Col>
+                                    <p className="time">23:00</p>
+                                    <p className="time">23:30</p>
+                                </Col>
+                            
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">23:30</p>
+                                    <p className="time">24:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
                     </Container>
                 </Tab>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <Tab className="tab-link" eventKey="Petak" title="Petak">
                     <Container>
 
+                    <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">00:00</p>
+                                    <p className="time">04:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Balkan in Amarica</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={amaricaImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Trenutno najslušaniji hitovi sa Balkana.</Col>
+                                <Col>
+                                    <p className="time">04:00</p>
+                                    <p className="time">05:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+                        
+                    <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">05:00</p>
+                                    <p className="time">06:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Folk Blok</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={folk}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi narodne muzike.
+                            </Col>
+                                <Col>
+                                    <p className="time">06:00</p>
+                                    <p className="time">07:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
                         <div className="schedule-item">
                             <Row>
                                 <Col>
@@ -255,9 +1319,9 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike sa Balkana protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
-                                    <p className="time">00:00</p>
+                                    <p className="time">07:00</p>
                                     <p className="time">12:00</p>
                                 </Col>
                             </Row>
@@ -266,7 +1330,7 @@ function Raspored() {
                         <div className="schedule-item">
                             <Row>
                                 <Col>
-                                    <p className="schedule-item-title">Opet Vikend</p>
+                                    <p className="schedule-item-title">Opet vikend</p>
                                 </Col>
                             </Row>
                             <Row>
@@ -279,16 +1343,13 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
-                                Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.
-                                Opet Vikend slušajte uživo na www.RadioKapija.com i frekvencijama radija Otvorena Mreža (Sarajevo 106.2 MHz, Mostar 94.0 MHz, Jajce 98.3 MHz, Konjic 98.4 MHz, Banja Luka 101.4 MHz, Tuzla 102.1 MHz, Srebrenica 105.6 MHz, Trebinje 106.4 MHz, Bihać 107.4 MHz) svakog petka tačno u podne po lokalnom vremenu u Los Angelesu.
-                            </Col>
                                 <Col>
                                     <p className="time">12:00</p>
                                     <p className="time">13:30</p>
                                 </Col>
                             </Row>
                         </div>
+
 
                         <div className="schedule-item">
                             <Row>
@@ -306,19 +1367,70 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-
-                                <Col xl={6}>Najveći hitovi zabavne muzike sa Balkana protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">13:30</p>
+                                    <p className="time">16:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Balkan in Amarica</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={amaricaImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Trenutno najslušaniji hitovi sa Balkana.</Col>
+                                <Col>
+                                    <p className="time">16:00</p>
+                                    <p className="time">17:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">17:00</p>
                                     <p className="time">20:00</p>
                                 </Col>
                             </Row>
                         </div>
 
+
                         <div className="schedule-item">
                             <Row>
                                 <Col>
-                                    <p className="schedule-item-title">Opet Vikend</p>
+                                    <p className="schedule-item-title">Opet vikend</p>
                                 </Col>
                             </Row>
                             <Row>
@@ -331,14 +1443,61 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
-                                Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.
-                                Opet Vikend slušajte uživo na www.RadioKapija.com i frekvencijama radija Otvorena Mreža (Sarajevo 106.2 MHz, Mostar 94.0 MHz, Jajce 98.3 MHz, Konjic 98.4 MHz, Banja Luka 101.4 MHz, Tuzla 102.1 MHz, Srebrenica 105.6 MHz, Trebinje 106.4 MHz, Bihać 107.4 MHz) svakog petka tačno u podne po lokalnom vremenu u Los Angelesu.
-                            </Col>
                                 <Col>
                                     <p className="time">20:00</p>
                                     <p className="time">21:30</p>
                                 </Col>
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">21:30</p>
+                                    <p className="time">23:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Sevdah Time</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={sevdahImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najljepse sevdalinke
+                            </Col>
+                                <Col>
+                                    <p className="time">23:00</p>
+                                    <p className="time">23:30</p>
+                                </Col>
+                            
                             </Row>
                         </div>
 
@@ -358,19 +1517,37 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike sa Balkana protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
-                                    <p className="time">21:30</p>
-                                    <p className="time">00:00</p>
+                                    <p className="time">23:30</p>
+                                    <p className="time">24:00</p>
                                 </Col>
                             </Row>
                         </div>
+                       
                     </Container>
                 </Tab>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <Tab className="tab-link" eventKey="Subota" title="Subota">
                     <Container>
-
-                        <div className="schedule-item">
+                    <div className="schedule-item">
                             <Row>
                                 <Col>
                                     <p className="schedule-item-title">Muzički Program</p>
@@ -386,7 +1563,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike sa Balkana protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">00:00</p>
                                     <p className="time">04:00</p>
@@ -397,7 +1574,7 @@ function Raspored() {
                         <div className="schedule-item">
                             <Row>
                                 <Col>
-                                    <p className="schedule-item-title">Opet Vikend</p>
+                                    <p className="schedule-item-title">Opet vikend</p>
                                 </Col>
                             </Row>
                             <Row>
@@ -410,13 +1587,60 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
-                                Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.
-                                Opet Vikend slušajte uživo na www.RadioKapija.com i frekvencijama radija Otvorena Mreža (Sarajevo 106.2 MHz, Mostar 94.0 MHz, Jajce 98.3 MHz, Konjic 98.4 MHz, Banja Luka 101.4 MHz, Tuzla 102.1 MHz, Srebrenica 105.6 MHz, Trebinje 106.4 MHz, Bihać 107.4 MHz) svakog petka tačno u podne po lokalnom vremenu u Los Angelesu.
-                            </Col>
                                 <Col>
                                     <p className="time">04:00</p>
                                     <p className="time">05:30</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">05:30</p>
+                                    <p className="time">06:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Folk Blok</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={folk}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi narodne muzike.
+                            </Col>
+                                <Col>
+                                    <p className="time">06:00</p>
+                                    <p className="time">07:00</p>
                                 </Col>
                             </Row>
                         </div>
@@ -437,10 +1661,59 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-
-                                <Col xl={6}>Najveći hitovi zabavne muzike sa Balkana protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
-                                    <p className="time">05:30</p>
+                                    <p className="time">07:00</p>
+                                    <p className="time">13:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Sevdah Time</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={sevdahImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najljepse sevdalinke
+                            </Col>
+                                <Col>
+                                    <p className="time">13:00</p>
+                                    <p className="time">13:30</p>
+                                </Col>
+                            
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">13:30</p>
                                     <p className="time">15:00</p>
                                 </Col>
                             </Row>
@@ -449,7 +1722,7 @@ function Raspored() {
                         <div className="schedule-item">
                             <Row>
                                 <Col>
-                                    <p className="schedule-item-title">Opet Vikend</p>
+                                    <p className="schedule-item-title">Opet vikend</p>
                                 </Col>
                             </Row>
                             <Row>
@@ -462,13 +1735,59 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
-                                Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.
-                                Opet Vikend slušajte uživo na www.RadioKapija.com i frekvencijama radija Otvorena Mreža (Sarajevo 106.2 MHz, Mostar 94.0 MHz, Jajce 98.3 MHz, Konjic 98.4 MHz, Banja Luka 101.4 MHz, Tuzla 102.1 MHz, Srebrenica 105.6 MHz, Trebinje 106.4 MHz, Bihać 107.4 MHz) svakog petka tačno u podne po lokalnom vremenu u Los Angelesu.
-                            </Col>
                                 <Col>
                                     <p className="time">15:00</p>
                                     <p className="time">16:30</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">16:30</p>
+                                    <p className="time">20:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Folk Blok</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={folk}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi narodne muzike.
+                            </Col>
+                                <Col>
+                                    <p className="time">20:00</p>
+                                    <p className="time">21:00</p>
                                 </Col>
                             </Row>
                         </div>
@@ -489,17 +1808,137 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike sa Balkana protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
-                                    <p className="time">16:30</p>
-                                    <p className="time">00:00</p>
+                                    <p className="time">21:00</p>
+                                    <p className="time">23:00</p>
                                 </Col>
                             </Row>
                         </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Sevdah Time</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={sevdahImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najljepse sevdalinke
+                            </Col>
+                                <Col>
+                                    <p className="time">23:00</p>
+                                    <p className="time">23:30</p>
+                                </Col>
+                            
+                            </Row>
+                        </div>
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">23:30</p>
+                                    <p className="time">24:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        
                     </Container>
                 </Tab>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <Tab className="tab-link" eventKey="Nedjelja" title="Nedjelja">
                     <Container>
+                        
+                    <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">00:00</p>
+                                    <p className="time">06:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+                       
+                    <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Folk Blok</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={folk}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi narodne muzike.
+                            </Col>
+                                <Col>
+                                    <p className="time">06:00</p>
+                                    <p className="time">07:00</p>
+                                </Col>
+                            </Row>
+                        </div>
 
                         <div className="schedule-item">
                             <Row>
@@ -517,18 +1956,19 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike sa Balkana protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
-                                    <p className="time">00:00</p>
+                                    <p className="time">07:00</p>
                                     <p className="time">09:00</p>
                                 </Col>
                             </Row>
                         </div>
 
+                        
                         <div className="schedule-item">
                             <Row>
                                 <Col>
-                                    <p className="schedule-item-title">Opet Vikend</p>
+                                    <p className="schedule-item-title">Opet vikend</p>
                                 </Col>
                             </Row>
                             <Row>
@@ -541,15 +1981,169 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-
-                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
-                                Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.
-                                Opet Vikend slušajte uživo na www.RadioKapija.com i frekvencijama radija Otvorena Mreža (Sarajevo 106.2 MHz, Mostar 94.0 MHz, Jajce 98.3 MHz, Konjic 98.4 MHz, Banja Luka 101.4 MHz, Tuzla 102.1 MHz, Srebrenica 105.6 MHz, Trebinje 106.4 MHz, Bihać 107.4 MHz) svakog petka tačno u podne po lokalnom vremenu u Los Angelesu.
-                            </Col>
                                 <Col>
                                     <p className="time">09:00</p>
                                     <p className="time">10:30</p>
                                 </Col>
+                            </Row>
+                        </div>
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">10:30</p>
+                                    <p className="time">13:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Sevdah Time</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={sevdahImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najljepse sevdalinke
+                            </Col>
+                                <Col>
+                                    <p className="time">13:00</p>
+                                    <p className="time">13:30</p>
+                                </Col>
+                            
+                            </Row>
+                        </div>
+
+                        
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">13:30</p>
+                                    <p className="time">20:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+                       
+                    <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Folk Blok</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={folk}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi narodne muzike.
+                            </Col>
+                                <Col>
+                                    <p className="time">20:00</p>
+                                    <p className="time">21:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Muzički Program</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={muzicki}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col>
+                                    <p className="time">21:00</p>
+                                    <p className="time">23:00</p>
+                                </Col>
+                            </Row>
+                        </div>
+
+
+
+
+                        <div className="schedule-item">
+                            <Row>
+                                <Col>
+                                    <p className="schedule-item-title">Sevdah Time</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <img
+                                        src={sevdahImg}
+                                        width="200"
+                                        height="100"
+                                        className="d-inline-block align-top schedule-img"
+                                        alt="Radio kapija"
+                                    />
+                                </Col>
+                                <Col xl={6}>Najljepse sevdalinke
+                            </Col>
+                                <Col>
+                                    <p className="time">23:00</p>
+                                    <p className="time">23:30</p>
+                                </Col>
+                            
                             </Row>
                         </div>
 
@@ -569,41 +2163,14 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-
-                                <Col xl={6}>Najveći hitovi zabavne muzike sa Balkana protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
-                                    <p className="time">10:30</p>
-                                    <p className="time">22:00</p>
+                                    <p className="time">23:30</p>
+                                    <p className="time">24:00</p>
                                 </Col>
                             </Row>
                         </div>
 
-                        <div className="schedule-item">
-                            <Row>
-                                <Col>
-                                    <p className="schedule-item-title">Opet Vikend</p>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col>
-                                    <img
-                                        src={udriMuski}
-                                        width="200"
-                                        height="100"
-                                        className="d-inline-block align-top schedule-img"
-                                        alt="Radio kapija"
-                                    />
-                                </Col>
-                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
-                                Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.
-                                Opet Vikend slušajte uživo na www.RadioKapija.com i frekvencijama radija Otvorena Mreža (Sarajevo 106.2 MHz, Mostar 94.0 MHz, Jajce 98.3 MHz, Konjic 98.4 MHz, Banja Luka 101.4 MHz, Tuzla 102.1 MHz, Srebrenica 105.6 MHz, Trebinje 106.4 MHz, Bihać 107.4 MHz) svakog petka tačno u podne po lokalnom vremenu u Los Angelesu.
-                            </Col>
-                                <Col>
-                                    <p className="time">22:00</p>
-                                    <p className="time">00:00</p>
-                                </Col>
-                            </Row>
-                        </div>
 
                     </Container>
                 </Tab>
