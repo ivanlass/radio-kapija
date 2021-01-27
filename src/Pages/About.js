@@ -12,6 +12,7 @@ function About() {
         <div className="home-component">
             <Hero />
             <Container fluid className="hero-container">
+            <br/>
                 <Row>
                     {isBrowser ?
                         <>

@@ -1343,6 +1343,8 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
+                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
+Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                 <Col>
                                     <p className="time">12:00</p>
                                     <p className="time">13:30</p>
@@ -1443,6 +1445,8 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
+                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
+Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                 <Col>
                                     <p className="time">20:00</p>
                                     <p className="time">21:30</p>
@@ -1587,6 +1591,8 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
+                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
+Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                 <Col>
                                     <p className="time">04:00</p>
                                     <p className="time">05:30</p>
@@ -1735,6 +1741,8 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
+                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
+Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                 <Col>
                                     <p className="time">15:00</p>
                                     <p className="time">16:30</p>
@@ -1981,6 +1989,8 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
+                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
+Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                 <Col>
                                     <p className="time">09:00</p>
                                     <p className="time">10:30</p>

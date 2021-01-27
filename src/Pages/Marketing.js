@@ -13,6 +13,7 @@ function Marketing() {
         <div className="home-component">
             <Hero />
             <Container fluid className="hero-container">
+            <br/>
                 <Row>
                     {isBrowser ?
                         <>
@@ -250,6 +251,9 @@ function Marketing() {
                             <br />
                                 <br />
                             E-mail: Radio@RadioKapija.com
+                            <br/>
+                            <br/>
+                            <a href="https://www.youtube.com/user/RadioKapija" target="_blank">Youtube</a>
 </p>
                         </div>
 

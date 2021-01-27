@@ -9,6 +9,7 @@ import Hero from "../components/Hero";
 import WantsYou from '../components/WantsYou'
 import UspjesnePrice from '../components/UspjesnePrice'
 import Ad from "../components/Ad";
+import MobileApps from "../components/MobileApps";
 
 
 function Home() {
@@ -31,6 +32,7 @@ function Home() {
         <div className="home-component">
             <Hero />
             <Container fluid className="hero-container">
+                <br/>
                 <Row>
                     {isBrowser ?
                         <>
@@ -64,8 +66,9 @@ function Home() {
                     </Col>
                     <Col xl={3} className="side-ad-col">
                         <Ad placement="side" />
+                        <MobileApps />
                     </Col>
-                </Row>
+                </Row> 
 
             </Container>
         </div>
