@@ -35,7 +35,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">00:00</p>
                                     <p className="time">06:00</p>
@@ -59,7 +59,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi narodne muzike.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
                                     <p className="time">06:00</p>
@@ -85,7 +85,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.
                             </Col>
                                 <Col>
                                     <p className="time">07:00</p>
@@ -111,7 +111,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najljepse sevdalinke
+                                <Col xl={6} className="schedule-txt">Najljepse sevdalinke
                             </Col>
                                 <Col>
                                     <p className="time">13:00</p>
@@ -137,7 +137,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.
                             </Col>
                                 <Col>
                                     <p className="time">13:30</p>
@@ -164,7 +164,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi narodne muzike.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
                                     <p className="time">20:00</p>
@@ -190,7 +190,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.
                             </Col>
                                 <Col>
                                     <p className="time">21:00</p>
@@ -216,7 +216,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najljepse sevdalinke
+                                <Col xl={6} className="schedule-txt">Najljepse sevdalinke
                             </Col>
                                 <Col>
                                     <p className="time">23:00</p>
@@ -244,7 +244,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.
                             </Col>
                                 <Col>
                                     <p className="time">23:30</p>
@@ -303,7 +303,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">00:00</p>
                                     <p className="time">06:00</p>
@@ -329,7 +329,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi narodne muzike.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
                                     <p className="time">06:00</p>
@@ -354,7 +354,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">07:00</p>
                                     <p className="time">13:00</p>
@@ -379,7 +379,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najljepse sevdalinke
+                                <Col xl={6} className="schedule-txt">Najljepse sevdalinke
                             </Col>
                                 <Col>
                                     <p className="time">13:00</p>
@@ -412,7 +412,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">13:30</p>
                                     <p className="time">20:00</p>
@@ -437,7 +437,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi narodne muzike.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
                                     <p className="time">20:00</p>
@@ -464,7 +464,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">21:00</p>
                                     <p className="time">23:00</p>
@@ -492,7 +492,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najljepse sevdalinke
+                                <Col xl={6} className="schedule-txt">Najljepse sevdalinke
                             </Col>
                                 <Col>
                                     <p className="time">23:00</p>
@@ -520,7 +520,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">23:30</p>
                                     <p className="time">24:00</p>
@@ -561,7 +561,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">00:00</p>
                                     <p className="time">06:00</p>
@@ -585,7 +585,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi narodne muzike.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
                                     <p className="time">06:00</p>
@@ -610,7 +610,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">07:00</p>
                                     <p className="time">13:00</p>
@@ -634,7 +634,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najljepse sevdalinke
+                                <Col xl={6} className="schedule-txt">Najljepse sevdalinke
                             </Col>
                                 <Col>
                                     <p className="time">13:00</p>
@@ -661,7 +661,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">13:30</p>
                                     <p className="time">16:00</p>
@@ -687,7 +687,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Trenutno najslušaniji hitovi sa Balkana.</Col>
+                                <Col xl={6} className="schedule-txt">Trenutno najslušaniji hitovi sa Balkana.</Col>
                                 <Col>
                                     <p className="time">16:00</p>
                                     <p className="time">17:00</p>
@@ -712,7 +712,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">17:00</p>
                                     <p className="time">20:00</p>
@@ -736,7 +736,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi narodne muzike.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
                                     <p className="time">20:00</p>
@@ -764,7 +764,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">21:00</p>
                                     <p className="time">23:00</p>
@@ -790,7 +790,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najljepse sevdalinke
+                                <Col xl={6} className="schedule-txt">Najljepse sevdalinke
                             </Col>
                                 <Col>
                                     <p className="time">23:00</p>
@@ -817,7 +817,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">23:30</p>
                                     <p className="time">24:00</p>
@@ -869,7 +869,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">00:00</p>
                                     <p className="time">06:00</p>
@@ -893,7 +893,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi narodne muzike.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
                                     <p className="time">06:00</p>
@@ -918,7 +918,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">07:00</p>
                                     <p className="time">08:00</p>
@@ -942,7 +942,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Trenutno najslušaniji hitovi sa Balkana.</Col>
+                                <Col xl={6} className="schedule-txt">Trenutno najslušaniji hitovi sa Balkana.</Col>
                                 <Col>
                                     <p className="time">08:00</p>
                                     <p className="time">09:00</p>
@@ -968,7 +968,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">09:00</p>
                                     <p className="time">13:00</p>
@@ -992,7 +992,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najljepse sevdalinke
+                                <Col xl={6} className="schedule-txt">Najljepse sevdalinke
                             </Col>
                                 <Col>
                                     <p className="time">13:00</p>
@@ -1018,7 +1018,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">13:30</p>
                                     <p className="time">16:00</p>
@@ -1043,7 +1043,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Trenutno najslušaniji hitovi sa Balkana.</Col>
+                                <Col xl={6} className="schedule-txt">Trenutno najslušaniji hitovi sa Balkana.</Col>
                                 <Col>
                                     <p className="time">16:00</p>
                                     <p className="time">17:00</p>
@@ -1068,7 +1068,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">17:00</p>
                                     <p className="time">20:00</p>
@@ -1092,7 +1092,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi narodne muzike.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
                                     <p className="time">20:00</p>
@@ -1119,7 +1119,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">21:00</p>
                                     <p className="time">23:00</p>
@@ -1144,7 +1144,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najljepse sevdalinke
+                                <Col xl={6} className="schedule-txt">Najljepse sevdalinke
                             </Col>
                                 <Col>
                                     <p className="time">23:00</p>
@@ -1171,7 +1171,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">23:30</p>
                                     <p className="time">24:00</p>
@@ -1220,7 +1220,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">00:00</p>
                                     <p className="time">04:00</p>
@@ -1244,7 +1244,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Trenutno najslušaniji hitovi sa Balkana.</Col>
+                                <Col xl={6} className="schedule-txt">Trenutno najslušaniji hitovi sa Balkana.</Col>
                                 <Col>
                                     <p className="time">04:00</p>
                                     <p className="time">05:00</p>
@@ -1269,7 +1269,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">05:00</p>
                                     <p className="time">06:00</p>
@@ -1294,7 +1294,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi narodne muzike.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
                                     <p className="time">06:00</p>
@@ -1319,7 +1319,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">07:00</p>
                                     <p className="time">12:00</p>
@@ -1343,7 +1343,7 @@ function Raspored() {
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
+                                <Col xl={6} className="schedule-txt">Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
 Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                 <Col>
                                     <p className="time">12:00</p>
@@ -1369,7 +1369,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">13:30</p>
                                     <p className="time">16:00</p>
@@ -1395,7 +1395,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Trenutno najslušaniji hitovi sa Balkana.</Col>
+                                <Col xl={6} className="schedule-txt">Trenutno najslušaniji hitovi sa Balkana.</Col>
                                 <Col>
                                     <p className="time">16:00</p>
                                     <p className="time">17:00</p>
@@ -1420,7 +1420,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">17:00</p>
                                     <p className="time">20:00</p>
@@ -1445,7 +1445,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
+                                <Col xl={6} className="schedule-txt">Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
 Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                 <Col>
                                     <p className="time">20:00</p>
@@ -1471,7 +1471,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">21:30</p>
                                     <p className="time">23:00</p>
@@ -1495,7 +1495,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najljepse sevdalinke
+                                <Col xl={6} className="schedule-txt">Najljepse sevdalinke
                             </Col>
                                 <Col>
                                     <p className="time">23:00</p>
@@ -1521,7 +1521,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">23:30</p>
                                     <p className="time">24:00</p>
@@ -1567,7 +1567,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">00:00</p>
                                     <p className="time">04:00</p>
@@ -1591,7 +1591,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
+                                <Col xl={6} className="schedule-txt">Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
 Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                 <Col>
                                     <p className="time">04:00</p>
@@ -1617,7 +1617,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">05:30</p>
                                     <p className="time">06:00</p>
@@ -1642,7 +1642,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi narodne muzike.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
                                     <p className="time">06:00</p>
@@ -1667,7 +1667,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">07:00</p>
                                     <p className="time">13:00</p>
@@ -1691,7 +1691,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najljepse sevdalinke
+                                <Col xl={6} className="schedule-txt">Najljepse sevdalinke
                             </Col>
                                 <Col>
                                     <p className="time">13:00</p>
@@ -1717,7 +1717,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">13:30</p>
                                     <p className="time">15:00</p>
@@ -1741,7 +1741,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
+                                <Col xl={6} className="schedule-txt">Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
 Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                 <Col>
                                     <p className="time">15:00</p>
@@ -1767,7 +1767,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">16:30</p>
                                     <p className="time">20:00</p>
@@ -1791,7 +1791,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi narodne muzike.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
                                     <p className="time">20:00</p>
@@ -1816,7 +1816,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">21:00</p>
                                     <p className="time">23:00</p>
@@ -1840,7 +1840,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najljepse sevdalinke
+                                <Col xl={6} className="schedule-txt">Najljepse sevdalinke
                             </Col>
                                 <Col>
                                     <p className="time">23:00</p>
@@ -1866,7 +1866,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">23:30</p>
                                     <p className="time">24:00</p>
@@ -1915,7 +1915,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">00:00</p>
                                     <p className="time">06:00</p>
@@ -1939,7 +1939,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi narodne muzike.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
                                     <p className="time">06:00</p>
@@ -1964,7 +1964,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">07:00</p>
                                     <p className="time">09:00</p>
@@ -1989,7 +1989,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
+                                <Col xl={6} className="schedule-txt">Smijeh, šala i zanimljivosti iz svijeta protkani najvećim hitovima zabavne muzike. Garantujemo vam dobru zabavu!
 Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                 <Col>
                                     <p className="time">09:00</p>
@@ -2015,7 +2015,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">10:30</p>
                                     <p className="time">13:00</p>
@@ -2042,7 +2042,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najljepse sevdalinke
+                                <Col xl={6} className="schedule-txt">Najljepse sevdalinke
                             </Col>
                                 <Col>
                                     <p className="time">13:00</p>
@@ -2069,7 +2069,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">13:30</p>
                                     <p className="time">20:00</p>
@@ -2093,7 +2093,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi narodne muzike.
+                                <Col xl={6} className="schedule-txt">Najveći hitovi narodne muzike.
                             </Col>
                                 <Col>
                                     <p className="time">20:00</p>
@@ -2120,7 +2120,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">21:00</p>
                                     <p className="time">23:00</p>
@@ -2147,7 +2147,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najljepse sevdalinke
+                                <Col xl={6} className="schedule-txt">Najljepse sevdalinke
                             </Col>
                                 <Col>
                                     <p className="time">23:00</p>
@@ -2173,7 +2173,7 @@ Emisija je zabavnog karaktera, a sa vama se druže Sanela i Damir.</Col>
                                         alt="Radio kapija"
                                     />
                                 </Col>
-                                <Col xl={6}>Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
+                                <Col xl={6} className="schedule-txt">Najveći hitovi zabavne muzike protkani zanimljivostima i vicevima.</Col>
                                 <Col>
                                     <p className="time">23:30</p>
                                     <p className="time">24:00</p>

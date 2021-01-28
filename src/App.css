@@ -14,6 +14,11 @@ a:hover {
 
 .nav-link-black {
   color: white;
+  font-size: 13px;
+}
+
+.schedule-txt {
+  text-align: left;
 }
 
 .navigacija {

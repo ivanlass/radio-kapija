@@ -14,6 +14,7 @@ import Nav from 'react-bootstrap/Nav'
 import logo from '../photos/logo.png'
 import VideoArhiv from '../Pages/VideoArhiv'
 import Thanks from '../Pages/Thanks'
+import Schedule from '../Pages/Schedule'
 import { Container } from "react-bootstrap";
 import { BannersContext } from "../Context/BannersContext";
 
@@ -55,6 +56,7 @@ export default function Navigation() {
                             <div className="nav-wrapper">
                                 <Nav className="nav">
                                     <Nav.Link ><Link to="/" className="nav-link-black">HOME</Link></Nav.Link>
+                                    <Nav.Link ><Link to="/schedule" className="nav-link-black">RASPORED</Link></Nav.Link>
                                     <Nav.Link><Link to="/about" className="nav-link-black">O NAMA</Link></Nav.Link>
                                     <Nav.Link ><Link to="/marketing" className="nav-link-black">KONTAKT / MARKETING</Link></Nav.Link>
                                     <Nav.Link><Link to="/video" className="nav-link-black">VIDEO ARHIV</Link></Nav.Link>
@@ -71,6 +73,9 @@ export default function Navigation() {
                 <Switch>
                 <Route path="/thanks">
                         <Thanks />
+                    </Route>
+                    <Route path="/schedule">
+                        <Schedule />
                     </Route>
                     <Route path="/about">
                         <About />
