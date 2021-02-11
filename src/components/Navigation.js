@@ -17,6 +17,7 @@ import Thanks from '../Pages/Thanks'
 import Schedule from '../Pages/Schedule'
 import { Container } from "react-bootstrap";
 import { BannersContext } from "../Context/BannersContext";
+import radiosvg from '../photos/radio.svg'
 
 export default function Navigation() {
     const [videos, setVideos] = useState('')
@@ -37,6 +38,8 @@ export default function Navigation() {
             .then(data => { setBanners(data) });
 
     }, [])
+
+    const openChat= () => {window.open("http://s1.voscast.com:7470/;",'_blank')}
 
     return (
 
@@ -60,6 +63,7 @@ export default function Navigation() {
                                     <Nav.Link><Link to="/about" className="nav-link-black">O NAMA</Link></Nav.Link>
                                     <Nav.Link ><Link to="/marketing" className="nav-link-black">KONTAKT / MARKETING</Link></Nav.Link>
                                     <Nav.Link><Link to="/video" className="nav-link-black">VIDEO ARHIV</Link></Nav.Link>
+                                    <Nav.Link><Link onClick={openChat}  className="nav-link-black"><img src={radiosvg}/></Link></Nav.Link>
                                 </Nav>
                             </div>
                         </Container>
