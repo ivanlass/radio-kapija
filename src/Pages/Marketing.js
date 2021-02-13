@@ -42,10 +42,10 @@ function Marketing() {
                         <h2 className="big-title">CJENOVNIK MARKETING USLUGA</h2>
                         <p className="about-body">Oglašavajte i reklamirajte se u našem programu, na web stranici i društvenim mrežama.</p>
                         <div className="price-section">
-                            <h3 className="sm-title">Radio Reklama (do 60 sekundi)</h3>
+                            <h3 className="sm-title">Radio Reklama</h3>
                             <ul>
                                 <li className="item">
-                                    <span className="price-item">30 dana – 12 emitovanja dnevno $300*</span>
+                                    <span className="price-item">30 dana – 6 emit $497*</span>
                                     <div className="paypal-form">
                                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                             <input type="hidden" name="cmd" value="_s-xclick" />
@@ -56,7 +56,7 @@ function Marketing() {
                                     </div>
                                 </li>
                                 <li className="item">
-                                    <span className="price-item">60 dana – 12 emitovanja dnevno $550**</span>
+                                    <span className="price-item">60 dana – 8 emit $797**</span>
                                     <br />
                                     <div className="paypal-form">
                                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -68,7 +68,7 @@ function Marketing() {
                                     </div>
                                 </li>
                                 <li className="item">
-                                    <span className="price-item">90 dana – 12 emitovanja dnevno $700**</span>
+                                    <span className="price-item">90 dana – 10 emit $997**</span>
                                     <div className="paypal-form">
                                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                             <input type="hidden" name="cmd" value="_s-xclick"/>
@@ -80,7 +80,7 @@ function Marketing() {
                                     
                                 </li>
                             </ul>
-                            <p>* U cijenu nije uračunato snimanje reklame od $50.</p>
+                            <p>* U cijenu nije uračunato snimanje reklame od $197.</p>
                             <p>** Besplatno snimanje reklame.</p>
                         </div>
                         
@@ -89,7 +89,7 @@ function Marketing() {
                             <h3 className="sm-title">Sponzor Emisije</h3>
                             <ul>
                                 <li className="item">
-                                    <span className="price-item">Sponzor Emisije – 3 objave $50</span>
+                                    <span className="price-item">Sponzor Emisije – 3 objave $150</span>
                                     <div className="paypal-form">
                                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                             <input type="hidden" name="cmd" value="_s-xclick"/>
@@ -100,7 +100,7 @@ function Marketing() {
                                     </div>
                                 </li>
                                 <li className="item">
-                                    <span className="price-item">Sponzor Emisije – 1 objava $25</span>
+                                    <span className="price-item">Sponzor Emisije – 1 objava $100</span>
                                     <br />
                                     <div className="paypal-form">
                                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -116,10 +116,10 @@ function Marketing() {
                         
                         
                         <div className="price-section">
-                            <h3 className="sm-title">Oglasi i Obavještenja (do 50 riječi)</h3>
+                            <h3 className="sm-title">Oglasi i Obavještenja (do 60 riječi)</h3>
                             <ul>
                                 <li className="item">
-                                    <span className="price-item">Oglasi – Čitanje Oglasa $10</span>
+                                    <span className="price-item">Oglasi – Čitanje Oglasa 1x $20</span>
                                     <div className="paypal-form">
                                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                             <input type="hidden" name="cmd" value="_s-xclick"/>
@@ -130,7 +130,7 @@ function Marketing() {
                                     </div>
                                 </li>
                                 <li className="item">
-                                    <span className="price-item">Oglasi – Čitanje Oglasa 7 dana $150</span>
+                                    <span className="price-item">Oglasi – Čitanje Oglasa dva puta dnevno 10 dana $200</span>
                                     <br />
                                     <div className="paypal-form">
                                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -150,7 +150,7 @@ function Marketing() {
                             <h3 className="sm-title">Website Promocija</h3>
                             <ul>
                                 <li className="item">
-                                    <span className="price-item">Website Promo – 15 dana $75</span>
+                                    <span className="price-item">Website Promo – 15 dana $149</span>
                                     <div className="paypal-form">
                                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                             <input type="hidden" name="cmd" value="_s-xclick"/>
@@ -161,7 +161,7 @@ function Marketing() {
                                     </div>
                                 </li>
                                 <li className="item">
-                                    <span className="price-item">Website Promo – 30 dana $100</span>
+                                    <span className="price-item">Website Promo – 30 dana $249</span>
                                     <br />
                                     <div className="paypal-form">
                                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -174,7 +174,7 @@ function Marketing() {
                                 </li>
                                 
                                 <li className="item">
-                                    <span className="price-item">Website Promo – 60 dana $175</span>
+                                    <span className="price-item">Website Promo – 60 dana $349</span>
                                     <br />
                                     <div className="paypal-form">
                                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -187,7 +187,7 @@ function Marketing() {
                                 </li>
                                 
                                 <li className="item">
-                                    <span className="price-item">Website Promo – 90 dana $250</span>
+                                    <span className="price-item">Website Promo – 90 dana $449</span>
                                     <br />
                                     <div className="paypal-form">
                                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -208,7 +208,7 @@ function Marketing() {
                             <h3 className="sm-title">Društvene Mreže</h3>
                             <ul>
                                 <li className="item">
-                                    <span className="price-item">Facebook Promo - $100</span>
+                                    <span className="price-item">Facebook Promo - $99</span>
                                     <div className="paypal-form">
                                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                             <input type="hidden" name="cmd" value="_s-xclick"/>
@@ -219,7 +219,7 @@ function Marketing() {
                                     </div>
                                 </li>
                                 <li className="item">
-                                    <span className="price-item">Instagram Promo - $75</span>
+                                    <span className="price-item">Instagram Promo - $79</span>
                                     <br />
                                     <div className="paypal-form">
                                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
